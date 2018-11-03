@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BarChart/> should match shallow snapshot 1`] = `
+<styled.div>
+  <BarChartItem
+    key="item0"
+    name="item0"
+    percentage={66.66666666666667}
+    totalCount={2}
+  />
+  <BarChartItem
+    key="item1"
+    name="item1"
+    percentage={33.333333333333336}
+    totalCount={1}
+  />
+</styled.div>
+`;
+
+exports[`[Styles] <BarChartWrapper/> should match snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  width: 100%;
+  max-width: 190px;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;
